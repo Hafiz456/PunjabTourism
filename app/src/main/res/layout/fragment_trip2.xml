@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE9E7"
+    android:onClick="book"
+    android:orientation="vertical"
+    tools:context=".Trip2">
+
+    <ImageView
+        android:id="@+id/imgPoint"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/trip2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Let's take a break and enjoy some time of your life in the history. Located about 100km from bahawalpur, this fort is the most magnificiently sustained fort in pakistan. It is a top tourist attraction of cholistan desert. Each wall is 240m in length, 30m high, the fort has a circumference of 1.5km. Hindu rajput, Raj Bhatti built the fort."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp" />
+
+</LinearLayout>

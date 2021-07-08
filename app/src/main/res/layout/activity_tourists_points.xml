@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TouristsPoints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Explore the beauty of Punjab"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+
+        <ImageView
+            android:id="@+id/btnlahore"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="lahore"
+            app:srcCompat="@drawable/lahore" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lahore"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+        <ImageView
+            android:id="@+id/btnbahawalpur"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="bahawalpur"
+            app:srcCompat="@drawable/bahawalpur" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bahawalpur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+
+        <ImageView
+            android:id="@+id/btnmultan"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="multan"
+            app:srcCompat="@drawable/multan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Multan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+        <ImageView
+            android:id="@+id/btnsialkot"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="sialkot"
+            app:srcCompat="@drawable/sialkot" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="sialkot"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+        <ImageView
+            android:id="@+id/btnislamabad"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="islamabad"
+            app:srcCompat="@drawable/islamabad" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Islamabad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+        <ImageView
+            android:id="@+id/btnfaisalabad"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="faisalabad"
+            app:srcCompat="@drawable/faisalabad" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Faisalabad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+        <ImageView
+            android:id="@+id/btntaxila"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="taxila"
+            app:srcCompat="@drawable/taxila" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Taxila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+        <ImageView
+            android:id="@+id/btnkasur"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:onClick="kasur"
+            app:srcCompat="@drawable/kasur" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kasur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F6"
+    android:onClick="book"
+    android:orientation="vertical"
+    tools:context=".Trip4">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/trip4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Tourist attractions of punjab also has khewra mines in its list. It is the second largest salt mine in the world and is located in jhelum. It is about 245 km from lahore and the whole mine is situated 288km above sea level."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp" />
+
+</LinearLayout>

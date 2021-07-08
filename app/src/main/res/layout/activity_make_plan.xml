@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakePlan">
+
+    <ImageView
+        android:id="@+id/imgPoint"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter amount here!!!"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="findTour"
+            android:text="Find Plan" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tourText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter the amount that you have in your pocket for tour in the above given field and click on the button to find the available plans for you in given amount. Note: Given amount must be greater than 3,000 and less than 20,000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+</LinearLayout>

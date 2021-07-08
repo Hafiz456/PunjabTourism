@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBE7"
+    android:orientation="vertical"
+    tools:context=".Trip3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/trip3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Another top attraction pakistan has includes noor mahal. The palace os about 150 years old. By 1999, most of its precious belongings had been smuggled out sold all around the country."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp" />
+
+</LinearLayout>

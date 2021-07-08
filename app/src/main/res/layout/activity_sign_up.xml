@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+
+    <EditText
+        android:id="@+id/signUpName"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EDE8E8"
+        android:hint="FullName"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/signUpEmail"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EDE8E8"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/signUpPassword"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EDE8E8"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerAccepter"
+        android:layout_width="213dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="30dp"
+        android:width="200dp"
+        android:onClick="OnSignUp"
+        android:text="SignUp"
+        android:textColor="@color/black"
+        app:backgroundTint="#8F735F" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnLoginScreen"
+        android:text="Already registered! Login Me."
+        android:textSize="20sp" />
+</LinearLayout>
